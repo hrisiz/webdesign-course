@@ -1,0 +1,13 @@
+header nav{
+	margin-top:-55px;
+}	
+section div#left{
+	float:left;
+	clear:left;
+	width:70%;
+}
+section div#right{
+	float:right;
+	clear:right;
+	width:30%;
+}

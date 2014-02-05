@@ -1,0 +1,22 @@
+body{
+	background-color:black;
+	padding-left:5%;
+	padding-right:5%;
+	text-align:center;
+}
+section{
+	margin-top:30px;
+	width:100%;
+}
+section div div{
+	background-image:url("../images/Top.png");
+	background-repeat:repeat-y;
+	padding-top:10px;
+	background-size:100% 100%;
+}
+header nav a{
+	display:inline-block;
+}
+footer{
+	clear:both;
+}
