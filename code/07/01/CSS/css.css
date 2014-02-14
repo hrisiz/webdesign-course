@@ -1,0 +1,32 @@
+*{
+	color:white;
+}
+body{
+	background-color:black;
+}
+header{
+	text-align:center;
+	background-color:grey;
+	opacity:0.5;
+}
+section>div{
+	min-height:100px;
+	background-color:grey;
+	margin-bottom:10px;
+	text-align:center;
+}
+section>div:first-child{
+	float:left;
+	width:30%;
+	opacity:0.5;
+}
+section>div:last-child{
+	float:right;
+	width:70%;
+	opacity:0.9;
+}
+footer{
+	text-align:center;
+	clear:both;
+	background-color:grey;
+}
