@@ -1,0 +1,15 @@
+*{
+	color:white;
+}
+body{
+	background-color:black;
+}
+.list li{
+	width:200px;
+}
+.list li>span:last-child{
+	float:right;
+}
+.song:after{
+	border-bottom:1px solid white;
+}

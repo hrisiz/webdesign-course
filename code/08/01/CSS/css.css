@@ -1,0 +1,57 @@
+*{
+	color:white;
+}
+body{
+	background-color:black;
+}
+header > ul.nav{
+	overflow:auto;
+}
+ul.nav{
+	padding:0px;
+	margin:0px;
+}
+ul.nav li{
+	background-color:grey;
+}
+ul.nav > li > a{
+	text-decoration:none;
+}
+ul.nav > li:hover{
+	background-color:green;
+}
+header > ul.nav > li{
+	display:block;
+	float:left;
+	padding-left:2px;
+	padding-right:2px;
+	cursor:pointer;
+}
+
+
+
+
+
+ul.nav > li > ul.nav  li{
+	display:none;
+}
+
+header > ul.nav > li > ul.nav{
+	position:absolute;
+	background-color:grey;
+}
+ul.nav > li:hover > ul.nav > li{
+	display:block;
+}
+
+
+
+ul.nav > li > ul.nav > li:hover > ul.nav > li{
+	position:relative;
+	top:-20px;
+}
+ul.nav > li > ul.nav > li:hover > ul.nav{
+	position:relative;
+	left:100%;
+	position:absolute;
+}
