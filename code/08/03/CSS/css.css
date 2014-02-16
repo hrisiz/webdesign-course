@@ -4,12 +4,17 @@
 body{
 	background-color:black;
 }
+.list p{
+	padding:0px;
+	margin:0px;
+	width:150px;
+	text-shadow: 0px 0px 1px white;
+	text-decoration:underline;
+	color:black;
+	position:relative;
+	top:18px;
+}
 .list li{
 	width:200px;
 }
-.list li>span:last-child{
-	float:right;
-}
-.song:after{
-	border-bottom:1px solid white;
-}
+
