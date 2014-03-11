@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homework</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome</h1>
+      <link rel="stylesheet" type="text/css" href="css.css"></link>
+    </header>
+    <section>
+      <form action="" method="POST" oninput="x.value=parseInt(range.value)">
+        <fieldset>
+          <legend>START</legend>
+          <label for="name">TEXT:</label>
+          <input list="names" id="name" type="text" name="text" size="10" maxlength="20" required="required"/>
+          <datalist id="names">
+            <option value="MegaName">
+            <option value="PowerName">
+            <option value="Don't choose me !">
+          </datalist>
+          <label for="password">PASSWORD:</label>
+          <input id="password" type="password" name="password" size="10" maxlength="10" required="required"/>
+        </fieldset>
+        <fieldset>
+          <legend>RADIO</legend>
+          <label for="radioto1">RADIO1:</label>
+          <input id="radioto1" type="radio" name="radioto" value="RADIO1"/>
+          <label for="radioto2">RADIO2:</label>
+          <input id="radioto2" type="radio" name="radioto" value="RADIO2"/>
+        </fieldset>
+        <fieldset>
+          <legend>CHECK</legend>
+          <label for="checka1">CHECK1:</label>
+          <input id="checka1" type="checkbox" name="checka1" value="CHECK1"/>
+          <label for="checka2">CHECK1:</label>
+          <input id="checka2" type="checkbox" name="checka2" value="CHECK2"/>
+        </fieldset>
+        <fieldset>
+          <legend>MAIL</legend>
+          <label for="email">EMAIL:</label>
+          <input id="email" type="email" name="email" size="20" maxlength="50" required="required"/>
+        </fieldset>
+        <fieldset>
+          <legend>SELECT</legend>
+          <label for="select">SELECT:</label>
+          <select>
+            <optgroup label="Don't choose me !">
+              <option>Don't choose me !</option>
+              <option>Don't choose me !</option>
+              <option>Don't choose me !</option>
+              <option>Don't choose me !</option>
+              <option>Don't choose me !</option>
+              <option>Don't choose me !</option>
+            </optgroup>
+            <optgroup label="Don't choose me !!">
+              <option>Don't choose me !</option>
+            </optgroup>
+            <optgroup label="Choose me ! What ?!?">
+              <option>Choose me ! Choose me ! Choose me ! Choose me ! PLEASE</option>
+              <option>Choose me ! Choose me ! Choose me ! Choose me ! PLEASE</option>
+              <option>Choose me ! Choose me ! Choose me ! Choose me ! PLEASE</option>
+              <option>Choose me ! Choose me ! Choose me ! Choose me ! PLEASE</option>
+              <option>Choose me ! Choose me ! Choose me ! Choose me ! PLEASE</option>
+            </optgroup>
+            <option>They Are Crazy ! Don't choose me !</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>RANGE</legend>
+          <label for="range">Slide ME !</label>
+          <input type="range" id="range" value="0" max="200" min="-200">
+          =<output name="x" for="a">0</output>
+        </fieldset>
+        <fieldset>
+          <legend>Numbers</legend>
+          <label>Count With Me !</label>
+          <input type="number"/>
+        </fieldset>
+        <fieldset>
+          <legend>Date</legend>
+          <label>Give a Date !!!!</label>
+          <input type="date" />
+        </fieldset>
+        <textarea readonly>
+          This are our rules.
+          1. Don't choose fields that don't want to be chosen.
+          2. Don't Slide any range input who want to be slide.(Only if you have a social life.)
+          3. Don't count with this number input it know more numbers then you !
+          4. Don't feed the hungry dates.
+          5. Don't click submit form ! THAT is really important !!! Don't click it !!!
+        </textarea>
+        <input type="submit" name="submit_me" value="What am I doing ?Click me if you want to know.">
+      </form>
+    </section>
+    <footer>
+      <p>Created by ME !</p>
+    </footer>
+  </body>
+</html>
